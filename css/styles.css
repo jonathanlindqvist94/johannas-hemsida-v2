@@ -189,7 +189,6 @@ Cards
     padding: 1em;
     text-align: center;
     align-items: center;
-    background: #e4f7e2;
 }
 
 .card-holder {
@@ -200,18 +199,21 @@ Cards
     margin-bottom: 2rem;
 }
 
+.card-1 {
+    background: hsl(113, 19%, 85%);
+}
+
 .card-2 {
 
-    background: #d8ead6;
+    background: hsl(113, 19%, 82%);
 }
 
 .card-3 {
-
-    background: #d0e0ce;
+    background: hsl(113, 19%, 79%);
 }
 
 .card-4 {
-    background: #c8d8c6;
+    background: hsl(113, 19%, 76%);
 }
 
 .read-more-card {
