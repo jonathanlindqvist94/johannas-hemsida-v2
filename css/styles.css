@@ -105,7 +105,6 @@ header {
     text-align: center;
     padding: 3em;
     margin-bottom: 3em;
-    position: relative;
 }
 
 .container {
@@ -192,6 +191,15 @@ Cards
     align-items: center;
     background: #e4f7e2;
 }
+
+.card-holder {
+    margin-bottom: 3em;
+}
+
+.card-body {
+    margin-bottom: 2rem;
+}
+
 .card-2 {
 
     background: #d8ead6;
@@ -204,11 +212,11 @@ Cards
 
 .card-4 {
     background: #c8d8c6;
-    margin-bottom: 3em;
 }
 
 .read-more-card {
     transition: 250ms;
+    margin-bottom: 2em;
 }
 
 .read-more-card:hover,
@@ -236,8 +244,8 @@ Cards
     
     .card {
         width: 50%;
-        height: 234px;
     }
+    
 }
 
 @media (min-width: 1030px) {
@@ -249,6 +257,12 @@ Cards
 @media (max-width: 500px) {
     .card {
         padding: 2em;
+    }
+
+    .card-holder {
+        display: flex;
+        flex-direction: column;
+        width: 100%
     }
 }
 
