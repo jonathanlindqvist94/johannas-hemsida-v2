@@ -111,15 +111,37 @@ Articles
 
 @media (max-width: 780px) {
     .secondary-article-holder {
+        /* flex-direction: column; */
+        justify-content: space-between;
+    }
+
+    
+
+    .secondary-article-about-body {
+        width: 100%;
+    }
+
+    /* .article-about-featured {
+        flex-direction: column;
+    }
+
+    .about-left-column,
+    .about-right-column {
+        width: 100%;
+    } */
+
+    .about-price-card {
+    }
+
+}
+
+@media (max-width: 650px) {
+    .secondary-article-holder {
         flex-direction: column;
     }
 
     .secondary-article-col1,
     .secondary-article-col2 {
-        width: 100%;
-    }
-
-    .secondary-article-about-body {
         width: 100%;
     }
 
@@ -131,7 +153,6 @@ Articles
     .about-right-column {
         width: 100%;
     }
-
 }
 /* 
 =============
@@ -142,7 +163,6 @@ Cards
 .about-price-card {
     background: hsl(113, 19%, 79%);
     padding: 3em 2em;
-    min-width: 190px;
 }
 
 
