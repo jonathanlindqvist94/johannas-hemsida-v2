@@ -31,6 +31,11 @@ h5 {
     font-size: 25px;
 }
 
+@media (max-width: 350px) {
+    .about-secondary-title {
+        font-size: 20px;
+    }
+}
 
 
 /* 
@@ -111,7 +116,6 @@ Articles
 
 @media (max-width: 780px) {
     .secondary-article-holder {
-        /* flex-direction: column; */
         justify-content: space-between;
     }
 
@@ -120,15 +124,6 @@ Articles
     .secondary-article-about-body {
         width: 100%;
     }
-
-    /* .article-about-featured {
-        flex-direction: column;
-    }
-
-    .about-left-column,
-    .about-right-column {
-        width: 100%;
-    } */
 
     .about-price-card {
     }
@@ -140,9 +135,13 @@ Articles
         flex-direction: column;
     }
 
-    .secondary-article-col1,
-    .secondary-article-col2 {
+    .secondary-article-col1 {
         width: 100%;
+    }
+
+    .secondary-article-col2 {
+        width: 75%;
+        margin: 0 auto;
     }
 
     .article-about-featured {
@@ -151,6 +150,12 @@ Articles
 
     .about-left-column,
     .about-right-column {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px) {
+    .secondary-article-col2 {
         width: 100%;
     }
 }
