@@ -1,0 +1,153 @@
+/* hsl(113, 19%, 79%) card background */
+
+/* 
+=============
+Typography
+=============
+*/
+
+h5 {
+    margin: 0;
+}
+
+.about-article-title {
+    color: #e78182;
+}
+
+.about-price-card {
+    font-size: 14px;
+    text-align: center;
+}
+
+.about-price-title {
+    margin-bottom: 1em;
+}
+
+.about-secondary-title {
+    margin-bottom: 3em;
+    padding-bottom: .5em;
+    border-bottom: 2px solid #ebebeb;
+    color: #e78182;
+    font-size: 25px;
+}
+
+
+
+/* 
+=============
+Layout
+=============
+*/
+
+
+/* 
+=============
+Navigation
+=============
+*/
+
+
+
+/* 
+=============
+Articles
+=============
+*/
+
+.article-about-featured {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10em;
+}
+
+.about-left-column {
+    width: 50%;
+
+    margin-bottom: 3em;
+}
+
+.about-right-column {
+    width: 40%;
+}
+
+.secondary-article-about-body {
+    margin-bottom: 3em;
+    width: 75%;
+}
+
+.about-price-body {
+    margin: 0;
+}
+
+.about-ring {
+    margin: 0 0 2em;
+}
+
+.secondary-article {
+    margin-bottom: 3em;
+}
+
+.secondary-article-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.secondary-article-col1 {
+    width: 55%;
+}
+
+.secondary-article-col2 {
+    width: 35%;
+    order: -1;
+}
+
+.secondary-article-img {
+    border-radius: 50%;
+}
+
+.about-right-column{
+    width: 35%;
+}
+
+@media (max-width: 780px) {
+    .secondary-article-holder {
+        flex-direction: column;
+    }
+
+    .secondary-article-col1,
+    .secondary-article-col2 {
+        width: 100%;
+    }
+
+    .secondary-article-about-body {
+        width: 100%;
+    }
+
+    .article-about-featured {
+        flex-direction: column;
+    }
+
+    .about-left-column,
+    .about-right-column {
+        width: 100%;
+    }
+
+}
+/* 
+=============
+Cards
+=============
+*/
+
+.about-price-card {
+    background: hsl(113, 19%, 79%);
+    padding: 3em 2em;
+    min-width: 190px;
+}
+
+
+/* 
+=============
+Aside
+=============
+*/

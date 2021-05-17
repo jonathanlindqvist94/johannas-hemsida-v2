@@ -101,15 +101,16 @@ Layout
 */
 
 header {
-    background: #f8f8e0;
+    /* background: #f8f8e0; */
     text-align: center;
     padding: 3em;
     margin-bottom: 3em;
+    background: linear-gradient(180deg, rgba(248,248,224,1) 0%, rgba(255,255,230,1) 90%, rgba(255,255,255,1) 100%); 
 }
 
 .container {
-    width: 95%;
-    max-width: 1080px;
+    width: 90%;
+    max-width: 1150px;
     margin: 0 auto;
 }
 
@@ -136,7 +137,7 @@ Navigation
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 3em;
     display: flex;
     flex-direction: column;
 }
@@ -234,7 +235,7 @@ Cards
 
 @media (min-width: 500px) {
     .container {
-        width: 95%;
+        width: 90%;
         margin: 0 auto;
     }
 
@@ -274,6 +275,7 @@ Atricles
 */
 .article-featured {
     margin-bottom: 3em;
+    width: 65%;
 }
 
 .read-more-article-featured {
@@ -282,7 +284,8 @@ Atricles
 
 .read-more-article-featured:hover,
 .read-more-article-featured:focus {
-    background: #a7c1a4;
+    /* background: #a7c1a4; */
+    background: #ededed;
     transition: 250ms;
 }
 /* 
@@ -353,4 +356,43 @@ footer {
         width: 20%;
         
     }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+221x287
+
+
+.top-ul {
+    justify-content: flex-end;
+}
+
+.top-li {
+    margin-right: 3em;
 }
