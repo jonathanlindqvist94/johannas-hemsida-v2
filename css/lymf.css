@@ -45,3 +45,11 @@ span {
     grid-column: 2 / 3;
     grid-row: 1 / -1;
 }
+
+.lymf-grid-img-2 {
+    border-radius: 10%;
+}
+
+.lymf-grid-itm-2 {
+
+}
