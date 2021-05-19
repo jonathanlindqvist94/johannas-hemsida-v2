@@ -1,0 +1,47 @@
+/* 
+===========
+Typography
+===========
+*/
+
+.article-lymf-title,
+.lymf-subtitle  {
+    margin: 0;
+}
+
+.article-lymf-title {
+    font-size: 3.5rem;
+    font-weight: 400;
+}
+
+.lymf-subtitle {
+    font-size: 1.125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #6d97d4;
+}
+
+span {
+    color: #e78182;
+}
+
+
+
+
+
+
+
+
+
+.container-grid {
+    background: firebrick;
+    display: grid;
+    grid-template-columns: 25% 1fr 25%;
+    grid-template-rows:  25% 1fr 25%;
+    margin-bottom: 5em;
+}
+
+.lymf-grid-itm-1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / -1;
+}

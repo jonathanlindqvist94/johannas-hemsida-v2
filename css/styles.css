@@ -134,6 +134,47 @@ Navigation
 =============
 */
 
+.top-nav {
+    background: rgba(248,248,224,1);
+}
+
+.top-ul {
+    justify-content: flex-end;
+    margin: 0;
+    padding: 1em;
+}
+
+.top-nav-img {
+    vertical-align: middle;
+    margin: 0;
+}
+
+.top-li {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: black;
+    margin: 0 1em 0 0;
+}
+
+.top-li img {
+    width: 18px;
+}
+
+.email-top-nav {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: black;
+    margin: 0;
+}
+
+@media (max-width: 975px) {
+    .top-nav {
+        display: none;
+    }
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -175,6 +216,7 @@ nav a:focus {
     nav a {
         margin-left: 2em;
     }
+
 }
 
 
@@ -275,7 +317,7 @@ Atricles
 */
 .article-featured {
     margin-bottom: 3em;
-    width: 65%;
+    width: 100%;
 }
 
 .read-more-article-featured {
@@ -287,6 +329,12 @@ Atricles
     /* background: #a7c1a4; */
     background: #ededed;
     transition: 250ms;
+}
+
+@media (min-width: 1050px) {
+    .article-featured {
+        width: 65%;
+    }
 }
 /* 
 =============
@@ -389,10 +437,10 @@ footer {
 221x287
 
 
-.top-ul {
+/* .top-ul {
     justify-content: flex-end;
 }
 
 .top-li {
     margin-right: 3em;
-}
+} */
