@@ -14,11 +14,22 @@ Typography
     font-weight: 400;
 }
 
+
 .lymf-subtitle {
     font-size: 1.125rem;
     font-weight: 400;
     text-transform: uppercase;
     color: #6d97d4;
+}
+@media (max-width: 510px) {
+    .article-lymf-title {
+        font-size: 2rem;
+    }
+
+    .lymf-subtitle {
+        font-size: .9rem;
+        font-weight: 600;
+    }
 }
 
 span {
@@ -46,9 +57,6 @@ span {
     grid-row: 1 / -1;
 }
 
-.lymf-grid-img-2 {
-    border-radius: 10%;
-}
 
 .lymf-grid-itm-2 {
 
