@@ -45,12 +45,12 @@ span {
 
 
 .container-grid {
-    background: firebrick;
+    /* background: firebrick; */
     display: grid;
     grid-template-columns: 25% 1fr 25%;
     grid-template-rows:  masonry;
     margin-bottom: 5em;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .lymf-grid-itm-1 {
