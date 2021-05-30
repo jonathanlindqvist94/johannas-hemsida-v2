@@ -46,3 +46,18 @@ Articles
 span {
     color: #e78182;
 }
+
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    grid-template-rows: masonry;
+}
+
+img {
+    max-width: 100%;
+}
+
+.item2 {
+    grid-row: 2 / -2;
+}
