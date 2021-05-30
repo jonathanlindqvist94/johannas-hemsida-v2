@@ -103,9 +103,13 @@ Layout
 header {
     /* background: #f8f8e0; */
     text-align: center;
-    padding: 3em;
+    padding: 0 3em 3em 3em;
     margin-bottom: 3em;
     background: linear-gradient(180deg, rgba(248,248,224,1) 0%, rgba(255,255,230,1) 90%, rgba(255,255,255,1) 100%); 
+}
+
+.header-img {
+    width: 350px;
 }
 
 .container {
