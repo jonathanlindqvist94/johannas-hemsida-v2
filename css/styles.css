@@ -18,7 +18,7 @@ background-sections/articles mobil: #ede195, #f9f5c6
 
 body {
     margin: 0;
-    font-family: 'Robot', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     line-height: 1.5;
     box-sizing: border-box;
@@ -65,7 +65,7 @@ h2,
 h3 {
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    margin: 0;
+    margin: 1rem 0 0 0;
 }
 
 .span-article-title {
@@ -163,6 +163,7 @@ Navigation
 
 .top-li img {
     width: 18px;
+    margin-right: .25rem;
 }
 
 .email-top-nav {

@@ -6,7 +6,31 @@ Typography
 =============
 */
 
+h2,
+h3 {
+    letter-spacing: 1.5px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+.title-lymf-priser,
+.title-massage-priser {
+    font-size: .625rem;
+    font-weight: 900;
+}
+
+.utbildningar {
+    letter-spacing: 1.35px;
+}
+
 h5 {
+    margin: 0;
+}
+
+.about-article-main-title {
     margin: 0;
 }
 
@@ -31,12 +55,15 @@ h5 {
     font-size: 25px;
 }
 
+/* .price-card-body {
+    font-size: .75rem;
+} */
+
 @media (max-width: 350px) {
     .about-secondary-title {
         font-size: 20px;
     }
 }
-
 
 /* 
 =============
@@ -125,8 +152,6 @@ Articles
         width: 100%;
     }
 
-    .about-price-card {
-    }
 
 }
 
@@ -152,6 +177,8 @@ Articles
     .about-right-column {
         width: 100%;
     }
+
+
 }
 
 @media (max-width: 400px) {
@@ -169,6 +196,46 @@ Cards
     background: hsl(113, 19%, 79%);
     padding: 3em 2em;
 }
+
+@media (max-width: 850px) and (min-width: 651px){
+
+    .secondary-article-holder {
+        flex-direction: column;
+    }
+
+    .secondary-article-col1 {
+        width: 100%;
+    }
+
+    .secondary-article-col2 {
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    .article-about-featured {
+        flex-direction: column;
+    }
+
+    .about-left-column,
+    .about-right-column {
+        width: 100%;
+    }
+
+    /* .price-card-flex {
+        display: flex;
+        justify-content: space-around;
+    } 
+
+    .lymf-tider-priser {
+        width: 40%;
+    }
+
+    .massage-tider-priser {
+        width: 40%;
+    } */
+
+}
+
 
 
 /* 

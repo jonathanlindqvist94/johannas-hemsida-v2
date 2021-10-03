@@ -10,6 +10,7 @@ Typography
 }
 
 
+
 /* 
 ===========
 Articles
@@ -23,6 +24,20 @@ Articles
 .article-lymf-title {
     font-size: 3.5rem;
     font-weight: 400;
+    width: 100%;
+}
+
+.lymf-content-holder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-column-lymf {
+    width: 45%;
+}
+
+.left-column-lymf {
+    width: 45%;
 }
 
 
@@ -32,6 +47,17 @@ Articles
     text-transform: uppercase;
     color: #6d97d4;
 }
+
+@media (max-width: 840px) {
+    .lymf-content-holder {
+        flex-direction: column;
+    }
+    .right-column-lymf,
+    .left-column-lymf {
+        width: 100%;
+    }
+}
+
 @media (max-width: 510px) {
     .article-lymf-title {
         font-size: 2rem;
